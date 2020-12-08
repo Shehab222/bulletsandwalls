@@ -11,7 +11,6 @@ function setup() {
   car.velocityX=speed;
   wall=createSprite(1500,200,60,height/2);
   wall.shapeColor=color(80,80,80);
-  createSprite(400, 200, 50, 50);
 }
 
 function draw() {
@@ -32,10 +31,4 @@ function draw() {
     }
   }
   drawSprites();
-}
-function hasCollided (bullet,wall)
-{
-bulletRightEdge.bullet.x+bullet.width
-
-
 }
